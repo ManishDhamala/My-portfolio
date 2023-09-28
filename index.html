@@ -1,181 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manish Dhamala</title>
-  <link rel="stylesheet" href="manish.css">
+  <link rel="stylesheet" href="./hidden.css">
   <script src="https://kit.fontawesome.com/55785d2fc3.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div id="header">
     <div class="container">
-    <nav>
-      <ul id="sidemenu">
-        <li><a href="#header">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
-      </ul>
-      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-      
-    </nav>
-    <div class= "header-text">
-      <p>Development <span> & Design</span></p>
-      <h1>Hi, I'm <span>Manish </span> <br> Dhamala From Nepal</h1>
- </div> 
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+      </nav>
+      <div class="header-text">
+        <p>Development <span> & Design</span></p>
+        <h1>Hi, I'm <span>Manish </span> <br> Dhamala From Nepal</h1>
       </div>
+    </div>
+  </div>
+  <!-- --------------about------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="manish.jpg">
         </div>
-        <!-- --------------about------------- -->
-        <div id="about">
-          <div class="container">
-            <div class="row"> 
-              <div class="about-col-1">
-                <img src="manish.jpg">
-                </div>
-                <div class="about-col-2">
-                  <h1 class="sub-title">About me</h1>
-                  <p>I am a passionate IT student with a huge interest in programming and web development. Some
-                     technologies I enjoy working with include HTML, CSS, JavaScript, Python, and Java. Throughout my
-                      academic journey, I have actively pursued various projects and coursework that have sharpened my skills
-                       and expanded my knowledge in the field of programming. I am constantly seeking opportunities to further
-                        my knowledge and stay updated with the latest advancements in the IT industry.
-                  </p>
-                  <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                  </div>
-
-                  <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                      <li><span>UI/UX</span><br>Designing web/app interfaces</li>
-                      <li><span>Web Development</span><br>Web app Development</li>
-                      <li><span>App Development</span><br>Building Android/IOS app</li>
-                    </ul>
-                  </div>
-
-                  <div class="tab-contents" id="experience">
-                    <ul>
-                      <li><span>2021-current</span><br>UI/UX design training at ET institute</li>
-                      <li><span>2017-2020</span><br>UI/UX design executive at Coln Digital Ltd</li>
-                      <li><span>2016-2017</span><br>Internship at ekart ecommerce</li>
-                    </ul>
-                  </div>
-
-                  <div class="tab-contents" id="education">
-                    <ul>
-                      <li><span>2023</span><br>UI/UX design training at ET insitute</li>
-                      <li><span>2022-current</span><br>BIT From Informatics</li>
-                      <li><span>2022</span><br>Management from Sagarmatha Secondary School</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I am a passionate IT student with a huge interest in programming and web development. Some
+            technologies I enjoy working with include HTML, CSS, JavaScript, Python, and Java. Throughout my
+            academic journey, I have actively pursued various projects and coursework that have sharpened my skills
+            and expanded my knowledge in the field of programming. I am constantly seeking opportunities to further
+            my knowledge and stay updated with the latest advancements in the IT industry.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
 
-          <!-- --------------------------------services--------------------------------- -->
-          <div id="services">
-            <div class="container">
-              <h1 class="sub-title">My Services</h1>
-              <div class="services-list">
-                <div>
-                  <i class="fa-solid fa-code"></i>
-                  <h2>Web Development</h2>
-                  <p>Web development is the art and science of creating functional, user-friendly, and visually appealing
-                     websites. As a web developer, my expertise lies in crafting dynamic and interactive online experiences
-                      that meet the unique needs of businesses and individuals. I can transform your ideas into compelling
-                       digital solutions that drive engagement, enhance brand presence, and produce measurable results in the digital world.
-                      </p>
-                      <a href="#">Learn more</a>
-                </div>
-
-                <div>
-                  <i class="fa-solid fa-crop"></i>
-                  <h2>UI/UX Design</h2>
-                  <p>UI/UX design is the art of creating intuitive and engaging user interfaces and experiences for digital products.
-                     As a UI/UX designer, my passion lies in crafting visually appealing interfaces that not only convince users but
-                      also provide smooth and enjoyable interactions. I ensure that the final design effectively addresses user needs
-                       and goals. Whether it's a website, mobile app, or software interface, I aim to create designs that are not only
-                        visually appealing but also highly functional and optimized for usability.
-                      </p>
-                      <a href="#">Learn more</a>
-                </div>
-
-                <div>
-                  <i class="fa-brands fa-app-store"></i>
-                  <h2>App Development</h2>
-                  <p>App development is the process of creating powerful and user-friendly mobile applications that fulfill specific needs
-                     and provide value to users. As an app developer, my expertise lies in designing and developing custom mobile applications
-                      for various platforms, including iOS and Android. I can help you transform your ideas into functional and successful
-                       mobile applications.
-                      </p>
-                      <a href="#">Learn more</a>
-                </div>
-        
-              </div>
-            </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android/IOS app</li>
+            </ul>
           </div>
 
-<!-- ------------------------------Portfolio---------------------------------- -->
-          <div id="portfolio">
-            <div class="container">
-              <h1 class="sub-title">My Work</h1>
-              <div class="worklist">
-                <div class="work">
-                  <img src="work-1.png">
-                  <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connects you to the talented people
-                      around the world.Download it form play store.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                  </div>
-                </div>
-                <div class="work">
-                  <img src="work-2.png">
-                  <div class="layer">
-                    <h3>Music App</h3>
-                    <p>Music Player with stunning design and
-                      powerful sound quality.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                  </div>
-                </div>
-                <div class="work">
-                  <img src="work-3.png">
-                  <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>Buy the best goods on a cheaper price from this app.
-                      Download it form play store.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                  </div>
-                </div>
-              </div>
-              <a href="#" class="btn">See more</a>
-              
-            </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021-current</span><br>UI/UX design training at ET institute</li>
+              <li><span>2017-2020</span><br>UI/UX design executive at Coln Digital Ltd</li>
+              <li><span>2016-2017</span><br>Internship at ekart ecommerce</li>
+            </ul>
           </div>
 
-<!-- -------------------------------contact------------------------------ -->
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>UI/UX design training at ET insitute</li>
+              <li><span>2022-current</span><br>BIT From Informatics</li>
+              <li><span>2022</span><br>Management from Sagarmatha Secondary School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------services--------------------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>Web development is the art and science of creating functional, user-friendly, and visually appealing
+            websites. As a web developer, my expertise lies in crafting dynamic and interactive online experiences
+            that meet the unique needs of businesses and individuals. I can transform your ideas into compelling
+            digital solutions that drive engagement, enhance brand presence, and produce measurable results in the
+            digital world.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>UI/UX design is the art of creating intuitive and engaging user interfaces and experiences for digital
+            products.
+            As a UI/UX designer, my passion lies in crafting visually appealing interfaces that not only convince users
+            but
+            also provide smooth and enjoyable interactions. I ensure that the final design effectively addresses user
+            needs
+            and goals. Whether it's a website, mobile app, or software interface, I aim to create designs that are not
+            only
+            visually appealing but also highly functional and optimized for usability.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Development</h2>
+          <p>App development is the process of creating powerful and user-friendly mobile applications that fulfill
+            specific needs
+            and provide value to users. As an app developer, my expertise lies in designing and developing custom mobile
+            applications
+            for various platforms, including iOS and Android. I can help you transform your ideas into functional and
+            successful
+            mobile applications.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------Portfolio---------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the talented people
+              around the world.Download it form play store.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Music Player with stunning design and
+              powerful sound quality.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-3.png">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>Buy the best goods on a cheaper price from this app.
+              Download it form play store.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+
+  <!-- -------------------------------contact------------------------------ -->
   <div id="contact">
     <div class="container">
       <div class="row">
         <div class="contact-left">
-        <h1 class="sub-title">Contact Me</h1>
-        <p><i class="fa-solid fa-envelope"></i>dhamalamanish32@gmail.com</p>
-        <p><i class="fa-solid fa-phone"></i>+977 9806535576</p>
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>dhamalamanish32@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+977 9806535576</p>
           <div class="social-icons">
-            <a href="https://www.facebook.com/manish.dhamala.11" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/__manish.dhamala/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/manish.dhamala.11" target="_blank"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/__manish.dhamala/" target="_blank"><i
+                class="fa-brands fa-square-instagram"></i></a>
             <a href="https://github.com/ManishDhamala" target="_blank"><i class="fa-brands fa-github"></i></a>
           </div>
           <a href="Manish Dhamala CV.pdf" download class="btn btn2">Download CV</a>
-      </div>
+        </div>
 
         <div class="contact-right">
           <form name="submit-to-google-sheet">
@@ -186,7 +198,7 @@
           </form>
           <span id="msg"></span>
         </div>
-      
+
 
       </div>
     </div>
@@ -197,8 +209,9 @@
 
 
 
-  
-  
+
+
 </body>
 <script src="manish.js"></script>
+
 </html>
