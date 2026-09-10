@@ -200,6 +200,11 @@ nav ul li a:hover::after {
   margin-bottom: 15px;
 }
 
+.services-list div p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
 .services-list div a {
   text-decoration: none;
   color: #fff;
